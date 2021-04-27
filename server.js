@@ -53,6 +53,10 @@ const db = mysql.createConnection(
 //     console.log(result);
 // })
 
+
+// ================================ pick back up at 12.2.5  ================================ //
+
+
 // Default response for any other request (Not Found) *catchall route* must be last
 app.use((req, res) => {
     res.status(404).end();
